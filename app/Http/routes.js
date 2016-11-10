@@ -17,6 +17,7 @@
 
 const Route = use('Route')
 
+Route.resource('/blog', 'BlogController') // 
 Route.get('/watson', 'watsonactual')
 
 Route.on('/').render('joelcorplanding')
