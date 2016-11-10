@@ -1,34 +1,36 @@
 'use strict'
-
+const User = use('App/Model/User')
+     
 class WatsonController {
 
-  * index(request, response) {
-    //
-  }
+    * index (request, response) {
+        yield console.log('Test HIIIHIHIHIHIHIHIHIIIHIHIIHI')
+    }
 
-  * create(request, response) {
-    //
-  }
 
-  * store(request, response) {
-    //
-  }
+    * create(request, response) {
+        //
+    }
 
-  * show(request, response) {
-    //
-  }
+    * store(request, response) {
+        //
+    }
 
-  * edit(request, response) {
-    //
-  }
+    * show(request, response) {
+        //
+    }
 
-  * update(request, response) {
-    //
-  }
+    * edit(request, response) {
+        //
+    }
 
-  * destroy(request, response) {
-    //
-  }
+    * update(request, response) {
+        //
+    }
+
+    * destroy(request, response) {
+        //
+    }
 
 }
 

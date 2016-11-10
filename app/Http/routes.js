@@ -17,7 +17,7 @@
 
 const Route = use('Route')
 
-Route.get('/watson', 'watson')
+Route.get('/watson', 'watsonactual')
 
 Route.on('/').render('joelcorplanding')
 // Route.on('/').render('welcome')
