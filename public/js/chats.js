@@ -24,7 +24,7 @@ function postChatMessage() {
 }
 
 // Pusher Setup
-var pusher = new Pusher('6e5f67bde794d28881ed', {
+var pusher = new Pusher('862cd8dd1e4168d6ec7b', {
   encrypted: true
 })
 

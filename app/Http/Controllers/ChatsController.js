@@ -17,15 +17,17 @@ class ChatsController {
   }
 
   * store(request, response) {
+
     var message = request.input('message')
 
     var pusher = new Pusher({
-      appId: '131622',
-      key: '6e5f67bde794d28881ed',
-      secret: 'cc5ab615a7d0aa9056c4',
+      appId: '269492',
+      key: '862cd8dd1e4168d6ec7b',
+      secret: '2d5d010b315df9453c97',
       encrypted: true
     })
 
+    // pusher.trigger('test_channel', 'my_event', {
     pusher.trigger('chat_app', 'new_chat', {
       message: message
     })
